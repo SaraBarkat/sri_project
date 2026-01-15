@@ -36,6 +36,7 @@ Réponse JSON Structurée
 ---
 
 ## Structure du Projet
+```
 sri_project/
 ├── manage.py
 ├── .env
@@ -55,7 +56,7 @@ sri_project/
 │ ├── form.html
 │ └── result.html
 └── venv/
-
+```
 
 ---
 
@@ -68,7 +69,7 @@ sri_project/
 
 ---
 
-## Excecution de l'application Django
+## Lancer le projet
 
 ```bash
 git clone https://github.com/SaraBarkat/sri_project.git
@@ -85,3 +86,6 @@ Accéder à l’application
 
 Interface Web :
 http://127.0.0.1:8000/api/
+
+Via postman : 
+http://127.0.0.1:8000/api/analyze/
